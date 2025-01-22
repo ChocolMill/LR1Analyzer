@@ -1,0 +1,10 @@
+Start -> TESTA TESTB
+Start -> TESTC TESTD
+TESTA -> a TESTB
+TESTA -> d TESTD
+TESTB -> c TESTC
+TESTB -> b TESTD
+TESTC -> @
+TESTC -> g h
+TESTD -> i
+TESTD -> j

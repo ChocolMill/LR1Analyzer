@@ -1,0 +1,10 @@
+exp -> exp addop term
+exp -> term
+addop -> +
+addop -> -
+term -> term mulop factor
+term -> factor
+mulop -> *
+mulop -> /
+factor -> ( exp )
+factor -> n

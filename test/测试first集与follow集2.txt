@@ -1,0 +1,7 @@
+Start -> A
+Start -> a
+A -> i ( exp ) Start F
+F -> e Start
+F -> @
+exp -> 0
+exp -> 1
